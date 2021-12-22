@@ -14,6 +14,7 @@ def pesquisa_binaria(lista, item):
     return None
 
 minha_lista = [1, 3, 5, 7, 9, 11, 13, 51]
+minha_lista2 = ['a', 'b', 'f', 'g', 'z']
 
 print(pesquisa_binaria(minha_lista, 51))
-print(pesquisa_binaria(minha_lista, -1))
+print(pesquisa_binaria(minha_lista2, 'g'))
